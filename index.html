@@ -1,20 +1,121 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Play" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" >
-    <title>Dots</title>
-  </head>
-  <body class="homepage">
 
-    <main>
-      <div class="container">
-        <h1 class="title --xl-large">Dots</h1>
-        <a class="button" href="level-one.html">Play</a>
-      </div>
-    </main>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background-size: cover;
+      background-color: white;
+      color: white;
+      background-image: url("https://i.imgur.com/S7Sd9We.gif");
+    }
 
-  </body>
-</html>
+    a {
+      color: white;
+    }
+
+    h1 {
+      font-family: monospace;
+      font-size: 35px;
+      color: White;
+    }
+
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+      width: 20%
+    }
+
+    ul {
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.5);
+      background: black;
+
+    }
+
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-family: monospace;
+    }
+
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      font-family: monospace;
+      background-color: white;
+    }
+
+    button {
+      border-radius: 5px;
+      font-family: monospace;
+      transition-duration: 0.5s;
+      color: black;
+    }
+
+    button:hover {
+      background-color: white;
+    }
+
+    body {
+      background-image: url("https://i.imgur.com/0rsrNOD.jpg");
+      background-image: cover;
+
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://i.imgur.com/Sea8mXc.png?1">
+    <h1>Andrew's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>My trip to a local nature reserve!</h2>
+    <p> This was one of my unexpected favorite trips. Not only was the lake beautiful it really complimented the scenary
+      in genearl. There was never a lack of fun walking trails. I loved it so much I came back and packed my favorite
+      picnic food and took pictures!
+    </p>
+    <button>Read More...</button>
+  </article>
+  <article>
+    <h2>A favorite hobby of mine~</h2>
+    <p>Imagine sweat, nerves, and adrenaline all resonating through your body and nothing you are doing is able to calm
+      it down. Except, beating your opponent down with a various types of punches. Boxing is a great stress reliever and
+      a dangerous one nonetheless. As they say we don't play boxing.</p>
+    <button>Read More...</button>
+  </article>
+  <article>
+    <h2>Why I deicided to take up Boxing.</h2>
+    <p>As someone who often struggles with a deep thinking mind it's hard to be on the same page as everyone else.
+      Boxing offered me that way to almost forcefully be in the zone and the same page as... well at least as my
+      opponents and coach. At the same time the ring kind of reminds me of my head and my issues. Everyone is always
+      supporting you, but when it comes to the real deal you're alone just you and the problem at hand. The side talking
+      and cheering just sounds like white noise and nothing but your actions will save you in the moment and define you.
+    </p>
+    <button>Read More...</button>
+  </article>
+  <script>
+    $("button").on("click", function () {
+      alert("Web page in development")
+    });
+  </script>
+</body>
