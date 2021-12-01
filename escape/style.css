@@ -1,0 +1,87 @@
+body {
+	background-color: aliceblue;
+	font-family: fantasy;
+	background-image: url(istockphoto-186404591-1024x1024.jpeg);
+	background-repeat: none;
+	background-image: contain;
+}
+
+h1 {
+	color: white;
+	border: 5px solid burlywood;
+	background-color: rgb(150, 200, 200);
+}
+
+h1:hover {
+	background-color: white;
+	transition-duration: 2s;
+}
+
+#hint {
+	color: rgb(150, 200, 200);
+}
+
+.levels {
+	height: 200px;
+	width: 400px;
+	border-radius: 7.5px;
+	border: 7.5px solid burlywood;
+	margin: 25px;
+}
+
+.levels:hover {
+	animation: shake 0.75s cubic-bezier(0.35, 0.05, 0.2, 0.95) both;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+	animation-duration: 2s;
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+	25% {
+		transform: translate(-3px, 0px) rotate(12.5deg);
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	
+	header {
+		display: flex;
+	}
+	h1 {
+		
+	}
+	h1 {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	main {
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	main {
+		display: flex;
+	}
+}
+
+
+@media only screen and (min-width: 992px) {
+	main {
+		display: flex;
+	}
+}
+
+
+@media only screen and (min-width: 1200px) {
+	max; {
+		display: flex;
+	}
+}

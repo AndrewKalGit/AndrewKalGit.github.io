@@ -1,0 +1,33 @@
+/* .grid div:nth-child(even) {
+
+}
+.grid div:nth-child(odd) {
+    
+} */
+
+body {
+	background: url(thecourt.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* Below this line to the next comment is the ocde for homebutton */
+.border-of-exit {
+	border: 4px black solid;
+	background-color: rgb(49, 45, 45);
+	opacity: 0.75;
+    border-radius: 2.5px;
+}
+
+.border-of-exit:hover {
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+/* Above this line to the next comment is the ocde for homebutton */
