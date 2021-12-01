@@ -1,0 +1,51 @@
+h5 {
+	opacity: 0;
+	color: white;
+	padding: 12.5px;
+}
+h5:hover {
+	border: 4px black solid;
+	background-color: rgb(49, 45, 45);
+	opacity: 1;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+
+}
+
+.grid-item {
+	color: black;
+	font-family: fantasy;
+	text-align: center;
+	opacity: 0.0;
+}
+
+.grid-item:hover {
+	opacity: 0.8;
+	background-color: white;
+	cursor: zoom-in;
+}
+
+.grid-item-back {
+	opacity: 0.6;
+}
+
+.redZone {
+	border: 12.5px tomato dotted;
+	border-bottom: none;
+	opacity: .5;
+}
+
+.redZone:hover{
+	opacity: 1;
+}
+
+.consoleMsg {
+	border: 5px black solid;
+	background-color: white;
+	font-size: 12.5px;
+	font-family: fantasy;
+	padding-top: 5px;
+}
