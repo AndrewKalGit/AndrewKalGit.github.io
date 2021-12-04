@@ -1,75 +1,59 @@
-header {
-    text-align: center;
-    background-size: cover;
-    background-color: white;
-    color: white;
-    background-image: url("https://i.imgur.com/S7Sd9We.gif");
-}
-
-a {
-    color: white;
-}
-
-h1 {
-    font-family: monospace;
-    font-size: 35px;
-    color: White;
-    width: 100%;
-}
-
-img {
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 20px;
-    width: 20%
-}
-
-ul {
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    background: black;
-
-}
-
-li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
-    font-family: monospace;
-}
-
-article {
-    max-width: 500px;
-    padding: 20px;
-    margin: 0 auto;
-    font-family: monospace;
-    background-color: white;
-}
-
-button {
-    border-radius: 5px;
-    font-family: monospace;
-    transition-duration: 0.5s;
-    color: black;
-}
-
-button:hover {
-    background-color: white;
-}
-
 body {
-    background-image: url("https://i.imgur.com/0rsrNOD.jpg");
-    background-image: cover;
-
+	background-image: url(pastel.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-@media (max-width: 500px) {
-    h1 {
-    font-size: 36px;
-    padding: 5px;
-    }
+.title {
+	margin-top: 40px;
+	margin-left: 0%;
+}
 
-    li {
-    padding: 5px;
-    display: block;
-    }
+header {
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;
+	border-radius: 12px;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.statement {
+	font-family: 'Josefin Slab', serif;
+	font-size: 75px;
+	display: flex;
+	justify-content: center;
+	color: whitesmoke;
+	font-weight: bolder;
+}
+
+main {
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+}
+
+.logo {
+	display: flex;
+}
+
+.logo-photo {
+	flex-basis: auto;
+	flex-shrink: 1;
+	width: 125px;
+	height: 125px;
+	border-radius: 12px;
+	margin-right: 12px;
+}
+
+.testimonials{
+	font-family: 'Josefin Slab', serif;
+	color: white;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+#disclaimer {
+	position: absolute;
+	left:0;
+	bottom:0;
+	font-size: 11px;
 }
